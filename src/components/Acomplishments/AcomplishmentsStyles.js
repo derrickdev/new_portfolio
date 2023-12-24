@@ -49,8 +49,8 @@ export const Box = styled.div`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 30px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;

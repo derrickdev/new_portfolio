@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import Link from 'next/link';
 
 const Hero = (props) => (
  <>
@@ -13,9 +14,12 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        Enthusiastic web developer dedicated to crafting exceptional digital experiences.
+         I thrive in building innovative solutions and can assist you in bringing your unique vision to life ...    
         </SectionText>
+        <Link href="#tech">
         <Button onClick={props.handleClick}>Learn More</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>

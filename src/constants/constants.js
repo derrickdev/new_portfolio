@@ -27,13 +27,22 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'Trip Book',
+    description: "My Trip Book application serves as a personalized repository for cherished travel memories and future aspirations. Tailored for wanderlust enthusiasts, this app enables users to capture and curate their best experiences and recommendations for destinations, past or planned",
+    image: '/images/tripbook.png',
+    tags: ['React', 'Redux','Javascript', 'Bootstrap'],
+    source: 'https://github.com/derrickdev/trip-book',
+    visit: 'https://rememberyourtrip.netlify.app/',
+    id: 3,
+  },
+  {
     title: 'E-COMMERCE',
     description: "My e-commerce website for electronics gadgets is a culmination of sleek design and seamless functionality. Crafted to cater specifically to gadget enthusiasts, this platform offers a wide array of cutting-edge electronics. With an intuitive user interface, secure payment gateways, and a diverse product range, users can explore, compare, and purchase the latest gadgets hassle-free, making tech dreams a reality",
     image: '/images/electrokdo.png',
     tags: ['WordPress', 'Javascript','CSS' , 'HTML'],
     source: 'https://electrokdo.com/',
     visit: 'https://electrokdo.com/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'E-COMMERCE',
@@ -42,8 +51,27 @@ export const projects = [
     tags: ['WordPress', 'CSS','Javascript', 'HTML'],
     source: 'https://prinob.com/',
     visit: 'https://prinob.com/',
-    id: 4,
+    id: 5,
+  },
+  {
+    title: 'Country App',
+    description: "My Country Information app is a comprehensive resource for exploring details about any country. Seamlessly designed, this app provides a wealth of information, including demographics, culture, landmarks, and more, enabling users to delve into the nuances of different nations effortlessly.",
+    image: '/images/countryApp.png',
+    tags: [ 'CSS','Javascript', 'HTML'],
+    source: 'https://github.com/derrickdev/CountryApp',
+    visit: 'https://yourcountryname.netlify.app/',
+    id: 6,
+  },
+  {
+    title: 'Github App',
+    description: "My GitHub Information app offers insights into GitHub user profiles. Tailored for developers and tech enthusiasts, it provides detailed information about repositories, contributions, and activity for any GitHub username, fostering a deeper understanding of an individual's coding prowess and open-source contributions",
+    image: '/images/github.png',
+    tags: [ 'CSS','Javascript', 'HTML'],
+    source: 'https://github.com/derrickdev/githubApp',
+    visit: 'https://findusername.netlify.app/',
+    id: 7,
   }
+  
 ];
 
 export const TimeLineData = [
@@ -51,5 +79,5 @@ export const TimeLineData = [
   { year: 2020, text: 'Get better in front-end development with OpenClassroom,Udemy & JsMastery' , },
   { year: 2021, text: 'Followed a fullstack web developer bootCamp on Udemy with Angela YU and Worked as freelance developer', },
   { year: 2022, text: 'Worked as a freelance developer and Advanced wordpress bootcamp at Digital valley',  },
-  { year: 2023, text: ' joined Backend software enginering pathway at SOURCEMIND with mastery of front-end stack , Computer Science, Data structure,Java,Spring Boot ,db etc... ', },
+  { year: 2023, text: ' Joined Backend software enginering pathway at SOURCEMIND with mastery of front-end stack , Computer Science, Data structure,Java,Spring Boot ,db etc... ', },
 ];
